@@ -1,3 +1,31 @@
+# Architectural Vision AI (Architecture-GPT)
+
+Architectural Vision AI is a full-stack architectural ideation and reasoning assistant designed to support **early-stage design exploration**.  
+It helps translate high-level architectural ideas into **structured design concepts, spatial narratives, and feasibility-oriented insights** using natural-language interaction.
+
+The system is intended as a **conceptual support tool**, not a replacement for professional architectural or engineering judgment.
+
+---
+
+## Purpose
+
+Early architectural design often involves rapid iteration, abstract thinking, and uncertainty.  
+This project explores how large language models can assist with:
+- Concept development
+- Design articulation
+- Constraint awareness
+- Idea refinement before formal drafting
+
+---
+
+## Features
+
+- Conversational, chat-based design interaction
+- Generation of architectural concepts and narratives
+- High-level feasibility and constraint reasoning
+- Modular frontend–backend architecture
+- Secure environment-based configuration
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
