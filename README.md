@@ -26,6 +26,8 @@ This project explores how large language models can assist with:
 - Modular frontend–backend architecture
 - Secure environment-based configuration
 
+  ---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
