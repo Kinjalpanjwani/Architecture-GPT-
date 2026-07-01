@@ -125,7 +125,7 @@ Flask Backend
 
 <td align="center">
 
-<b>Login Screen</b>
+<b>Welcome Screen</b>
 
 <br>
 
@@ -135,11 +135,35 @@ Flask Backend
 
 <td align="center">
 
+<b>Login Screen</b>
+
+<br>
+
+<img src="pic2.png" width="450"/>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center">
+
 <b>Text Consultation</b>
 
 <br>
 
-<img src="screenshots/pic2.png" width="450"/>
+<img src="pic3.png" width="450"/>
+
+</td>
+
+<td align="center">
+
+<b>Image Generation</b>
+
+<br>
+
+<img src="pic4.png" width="450"/>
 
 </td>
 
@@ -149,27 +173,13 @@ Flask Backend
 
 <td align="center">
 
-<b>AI Image Generation</b>
+<b>Image upload</b>
 
 <br>
 
-<img src="screenshots/pic3.png" width="450"/>
+<img src="pic5.png" width="450"/>
 
 </td>
-
-<td align="center">
-
-<b>Image Upload</b>
-
-<br>
-
-<img src="screenshots/pic4.png" width="450"/>
-
-</td>
-
-</tr>
-
-<tr>
 
 <td align="center">
 
@@ -177,17 +187,7 @@ Flask Backend
 
 <br>
 
-<img src="screenshots/pic5.png" width="450"/>
-
-</td>
-
-<td align="center">
-
-<b>Welcome Screen</b>
-
-<br>
-
-<img src="screenshots/pic6.png" width="450"/>
+<img src="pic6.png" width="450"/>
 
 </td>
 
@@ -307,32 +307,10 @@ Architecture-GPT
 
 ---
 
-# 📚 Academic Information
-
-**Course:** Software Engineering
-
-**Project Title:** Architectural Vision GPT
-
-**Project Type:** AI-Powered Interior Design Recommendation System
-
----
-
 # 👨‍💻 Developer
 
 **Kinjal Kashyapi Panjwani**
 
-Student ID: **23108114**
-
 GitHub:
 
 https://github.com/Kinjalpanjwani
-
----
-
-<div align="center">
-
-### ⭐ If you found this project interesting, please consider giving it a Star!
-
-Made with ❤️ using React, Flask, Google Gemini & DALL·E 3.
-
-</div>
