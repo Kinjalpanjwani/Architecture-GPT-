@@ -129,7 +129,7 @@ Flask Backend
 
 <br>
 
-<img src="screenshots/pic1.png" width="450"/>
+<img src="pic1.png" width="450"/>
 
 </td>
 
