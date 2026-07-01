@@ -1,55 +1,67 @@
+<div align="center">
+
 # 🏠 Architectural Vision GPT
 
-> **An AI-Powered Interior Design Recommendation System**
+### AI-Powered Interior Design Recommendation System
 
-Architectural Vision GPT is an AI-powered web application that helps users design and visualize interior spaces through conversational AI, intelligent room analysis, and AI-generated design concepts.
+An intelligent web application that provides AI-powered interior design consultation, room analysis, and realistic interior visualizations using **Google Gemini** and **DALL·E 3**.
 
-The application combines **Google Gemini** for intelligent interior design consultation and **DALL·E 3** for generating realistic interior visualizations. Whether users are planning a bedroom, living room, office, kitchen, or outdoor space, Architectural Vision GPT provides personalized recommendations based on room dimensions, budget, style preferences, and uploaded images.
+<p>
+
+![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Flask](https://img.shields.io/badge/Backend-Flask-000000?style=for-the-badge&logo=flask)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-4285F4?style=for-the-badge)
+![DALL·E 3](https://img.shields.io/badge/Image-DALL·E%203-FF9900?style=for-the-badge)
+
+</p>
+
+</div>
 
 ---
 
-# 📌 Features
+# 📖 Overview
+
+Architectural Vision GPT is an AI-powered Interior Design Recommendation System developed as a Software Engineering project. The application combines conversational AI, intelligent room analysis, and AI-generated visualizations to help users design beautiful and functional interior spaces.
+
+Unlike traditional interior design tools, Architectural Vision GPT acts as a virtual interior designer by providing detailed recommendations based on user requirements, uploaded room images, budget, room dimensions, and preferred design style.
+
+---
+
+# ✨ Key Features
 
 ## 🤖 AI Interior Design Consultation
 
-Ask natural language questions such as:
-
-- Design my modern living room
-- Suggest furniture for my bedroom
-- Recommend materials for my kitchen
-- Estimate the renovation cost
-- Best lighting for a small office
+Receive personalized interior design recommendations by simply describing your room or design idea.
 
 The AI provides:
 
-- Interior design recommendations
-- Furniture suggestions
-- Material recommendations
-- Flooring ideas
-- Ceiling suggestions
-- Lighting plans
-- Color palettes
-- Budget estimation
-- Space optimization
-- Modern design trends
+- 🛋 Furniture recommendations
+- 🎨 Color palette suggestions
+- 🧱 Material recommendations
+- 💰 Estimated project cost
+- 💡 Lighting recommendations
+- 🪵 Flooring suggestions
+- 🏠 Space optimization
+- 📐 Layout planning
+- 🌿 Sustainability ideas
+- 📈 Modern interior design trends
 
 ---
 
-## 🖼️ AI Room Image Analysis
+## 📷 AI Room Analysis
 
-Upload an image of your room and receive intelligent design recommendations.
+Upload a room image and let the AI analyze your existing space.
 
-The system analyzes:
+The system identifies:
 
-- Existing room layout
-- Furniture placement
+- Room layout
+- Furniture arrangement
 - Empty spaces
-- Color harmony
-- Lighting
-- Interior style
 - Design improvements
-
-The AI then suggests practical enhancements to improve both functionality and aesthetics.
+- Better furniture placement
+- Interior enhancement suggestions
+- Material recommendations
 
 ---
 
@@ -57,41 +69,31 @@ The AI then suggests practical enhancements to improve both functionality and ae
 
 Generate realistic interior concepts using **DALL·E 3**.
 
-Simply describe your desired room, for example:
+Simply describe your dream room and receive an AI-generated visualization.
 
-> "Design a luxurious Scandinavian-style bedroom with wooden flooring."
+Example prompts:
 
-The system generates an AI visualization to help users better imagine the final design.
-
----
-
-# 🚀 Technology Stack
-
-## Frontend
-
-- React.js
-- HTML5
-- CSS3
-- JavaScript
-
-## Backend
-
-- Flask (Python)
-
-## Artificial Intelligence
-
-- Google Gemini
-- DALL·E 3
-
-## Development Tools
-
-- Git
-- GitHub
-- VS Code
+- Luxury Living Room
+- Modern Kitchen
+- Scandinavian Bedroom
+- Backyard with Swimming Pool
+- Minimalist Office
 
 ---
 
-# 🏗️ System Workflow
+# 🛠 Technology Stack
+
+| Category | Technology |
+|------------|----------------|
+| Frontend | React.js |
+| Backend | Flask (Python) |
+| AI Model | Google Gemini |
+| Image Generation | DALL·E 3 |
+| Version Control | Git & GitHub |
+
+---
+
+# 🏗 System Workflow
 
 ```text
 User
@@ -102,61 +104,110 @@ React Frontend
    ▼
 Flask Backend
    │
-   ├──────────────► Google Gemini
-   │                    │
-   │                    ▼
-   │          Interior Design Recommendations
+   ├────────────► Google Gemini
+   │                 │
+   │                 ▼
+   │     Interior Design Consultation
    │
-   └──────────────► DALL·E 3
-                        │
-                        ▼
-              AI Generated Interior Image
+   └────────────► DALL·E 3
+                     │
+                     ▼
+         AI Generated Interior Design
 ```
 
 ---
 
-# 📷 Application Modules
+# 📸 Application Screenshots
 
-### 🔹 Text Consultation
+<table>
 
-Users interact with an AI-powered interior design assistant capable of providing:
+<tr>
 
-- Furniture recommendations
-- Material selection
-- Cost estimation
-- Room planning
-- Lighting recommendations
-- Color themes
-- Interior styling
+<td align="center">
+
+<b>Login Screen</b>
+
+<br>
+
+<img src="screenshots/pic1.png" width="450"/>
+
+</td>
+
+<td align="center">
+
+<b>Text Consultation</b>
+
+<br>
+
+<img src="screenshots/pic2.png" width="450"/>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center">
+
+<b>AI Image Generation</b>
+
+<br>
+
+<img src="screenshots/pic3.png" width="450"/>
+
+</td>
+
+<td align="center">
+
+<b>Image Upload</b>
+
+<br>
+
+<img src="screenshots/pic4.png" width="450"/>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center">
+
+<b>Room Analysis</b>
+
+<br>
+
+<img src="screenshots/pic5.png" width="450"/>
+
+</td>
+
+<td align="center">
+
+<b>Welcome Screen</b>
+
+<br>
+
+<img src="screenshots/pic6.png" width="450"/>
+
+</td>
+
+</tr>
+
+</table>
 
 ---
 
-### 🔹 Image Analysis
+# 🚀 Installation
 
-Users upload room images to receive:
-
-- Layout analysis
-- Improvement suggestions
-- Interior redesign recommendations
-- Furniture placement ideas
-
----
-
-### 🔹 Image Generation
-
-Generate realistic interior concepts from prompts using AI.
-
----
-
-# ⚙️ Installation
-
-### Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/Kinjalpanjwani/Architecture-GPT-.git
 ```
 
-### Frontend
+---
+
+## Frontend
 
 ```bash
 cd frontend
@@ -164,7 +215,9 @@ npm install
 npm start
 ```
 
-### Backend
+---
+
+## Backend
 
 ```bash
 cd backend
@@ -176,58 +229,91 @@ python app.py
 
 # 💡 Example Use Cases
 
-### Example 1
+### Bedroom Design
 
-Prompt:
+**Prompt**
 
-> Design a minimalist bedroom under $5000.
+> Design my small bedroom with a modern aesthetic.
 
-Output:
+**AI Output**
 
-- Furniture recommendations
-- Material suggestions
+- Furniture placement
 - Color palette
-- Cost estimation
+- Lighting plan
+- Material recommendations
+- Estimated renovation cost
 
 ---
 
-### Example 2
+### Kitchen Analysis
 
-Upload:
+Upload a kitchen image.
 
-Bedroom Image
+The AI analyzes:
 
-Output:
-
-- Layout improvements
-- Lighting recommendations
-- Decoration ideas
-- Space optimization
+- Existing layout
+- Cabinet placement
+- Countertop material
+- Lighting
+- Space utilization
 
 ---
 
-### Example 3
+### AI Visualization
 
 Prompt:
 
-> Generate a luxury modern living room.
+> Generate a luxurious Scandinavian living room.
 
 Output:
 
-AI-generated interior visualization.
+AI-generated interior concept image using DALL·E 3.
 
 ---
 
-# 🔒 Future Enhancements
+# 📂 Project Structure
 
-- Voice-based AI interaction
-- Augmented Reality room preview
+```text
+Architecture-GPT
+│
+├── frontend/
+│
+├── backend/
+│
+├── screenshots/
+│   ├── pic1.png
+│   ├── pic2.png
+│   ├── pic3.png
+│   ├── pic4.png
+│   ├── pic5.png
+│   └── pic6.png
+│
+├── README.md
+│
+└── LICENSE
+```
+
+---
+
+# 🎯 Future Enhancements
+
+- Voice-based AI assistant
 - 3D room visualization
+- Augmented Reality preview
+- Save multiple projects
+- Vendor recommendations
 - Budget comparison
-- Furniture shopping integration
-- Multiple room support
-- Project saving
-- User profiles
+- Furniture marketplace integration
+
+---
+
+# 📚 Academic Information
+
+**Course:** Software Engineering
+
+**Project Title:** Architectural Vision GPT
+
+**Project Type:** AI-Powered Interior Design Recommendation System
 
 ---
 
@@ -235,8 +321,18 @@ AI-generated interior visualization.
 
 **Kinjal Kashyapi Panjwani**
 
-GitHub: https://github.com/Kinjalpanjwani
+Student ID: **23108114**
+
+GitHub:
+
+https://github.com/Kinjalpanjwani
 
 ---
 
-## ⭐ If you found this project interesting, consider giving it a star!
+<div align="center">
+
+### ⭐ If you found this project interesting, please consider giving it a Star!
+
+Made with ❤️ using React, Flask, Google Gemini & DALL·E 3.
+
+</div>
