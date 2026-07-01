@@ -1,100 +1,242 @@
-# Architectural Vision AI (Architecture-GPT)
+# 🏠 Architectural Vision GPT
 
-Architectural Vision AI is a full-stack architectural ideation and reasoning assistant designed to support **early-stage design exploration**.  
-It helps translate high-level architectural ideas into **structured design concepts, spatial narratives, and feasibility-oriented insights** using natural-language interaction.
+> **An AI-Powered Interior Design Recommendation System**
 
-The system is intended as a **conceptual support tool**, not a replacement for professional architectural or engineering judgment.
+Architectural Vision GPT is an AI-powered web application that helps users design and visualize interior spaces through conversational AI, intelligent room analysis, and AI-generated design concepts.
 
----
-
-## Purpose
-
-Early architectural design often involves rapid iteration, abstract thinking, and uncertainty.  
-This project explores how large language models can assist with:
-- Concept development
-- Design articulation
-- Constraint awareness
-- Idea refinement before formal drafting
+The application combines **Google Gemini** for intelligent interior design consultation and **DALL·E 3** for generating realistic interior visualizations. Whether users are planning a bedroom, living room, office, kitchen, or outdoor space, Architectural Vision GPT provides personalized recommendations based on room dimensions, budget, style preferences, and uploaded images.
 
 ---
 
-## Features
+# 📌 Features
 
-- Conversational, chat-based design interaction
-- Generation of architectural concepts and narratives
-- High-level feasibility and constraint reasoning
-- Modular frontend–backend architecture
-- Secure environment-based configuration
+## 🤖 AI Interior Design Consultation
 
-  ---
+Ask natural language questions such as:
 
-# Getting Started with Create React App
+- Design my modern living room
+- Suggest furniture for my bedroom
+- Recommend materials for my kitchen
+- Estimate the renovation cost
+- Best lighting for a small office
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The AI provides:
 
-## Available Scripts
+- Interior design recommendations
+- Furniture suggestions
+- Material recommendations
+- Flooring ideas
+- Ceiling suggestions
+- Lighting plans
+- Color palettes
+- Budget estimation
+- Space optimization
+- Modern design trends
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🖼️ AI Room Image Analysis
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Upload an image of your room and receive intelligent design recommendations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The system analyzes:
 
-### `npm test`
+- Existing room layout
+- Furniture placement
+- Empty spaces
+- Color harmony
+- Lighting
+- Interior style
+- Design improvements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The AI then suggests practical enhancements to improve both functionality and aesthetics.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎨 AI Interior Image Generation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Generate realistic interior concepts using **DALL·E 3**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Simply describe your desired room, for example:
 
-### `npm run eject`
+> "Design a luxurious Scandinavian-style bedroom with wooden flooring."
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The system generates an AI visualization to help users better imagine the final design.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 🚀 Technology Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Frontend
 
-## Learn More
+- React.js
+- HTML5
+- CSS3
+- JavaScript
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Backend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Flask (Python)
 
-### Code Splitting
+## Artificial Intelligence
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Google Gemini
+- DALL·E 3
 
-### Analyzing the Bundle Size
+## Development Tools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Git
+- GitHub
+- VS Code
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# 🏗️ System Workflow
 
-### Advanced Configuration
+```text
+User
+   │
+   ▼
+React Frontend
+   │
+   ▼
+Flask Backend
+   │
+   ├──────────────► Google Gemini
+   │                    │
+   │                    ▼
+   │          Interior Design Recommendations
+   │
+   └──────────────► DALL·E 3
+                        │
+                        ▼
+              AI Generated Interior Image
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+# 📷 Application Modules
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 🔹 Text Consultation
 
-### `npm run build` fails to minify
+Users interact with an AI-powered interior design assistant capable of providing:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Furniture recommendations
+- Material selection
+- Cost estimation
+- Room planning
+- Lighting recommendations
+- Color themes
+- Interior styling
+
+---
+
+### 🔹 Image Analysis
+
+Users upload room images to receive:
+
+- Layout analysis
+- Improvement suggestions
+- Interior redesign recommendations
+- Furniture placement ideas
+
+---
+
+### 🔹 Image Generation
+
+Generate realistic interior concepts from prompts using AI.
+
+---
+
+# ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Kinjalpanjwani/Architecture-GPT-.git
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+### Backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
+
+---
+
+# 💡 Example Use Cases
+
+### Example 1
+
+Prompt:
+
+> Design a minimalist bedroom under $5000.
+
+Output:
+
+- Furniture recommendations
+- Material suggestions
+- Color palette
+- Cost estimation
+
+---
+
+### Example 2
+
+Upload:
+
+Bedroom Image
+
+Output:
+
+- Layout improvements
+- Lighting recommendations
+- Decoration ideas
+- Space optimization
+
+---
+
+### Example 3
+
+Prompt:
+
+> Generate a luxury modern living room.
+
+Output:
+
+AI-generated interior visualization.
+
+---
+
+# 🔒 Future Enhancements
+
+- Voice-based AI interaction
+- Augmented Reality room preview
+- 3D room visualization
+- Budget comparison
+- Furniture shopping integration
+- Multiple room support
+- Project saving
+- User profiles
+
+---
+
+# 👨‍💻 Developer
+
+**Kinjal Kashyapi Panjwani**
+
+GitHub: https://github.com/Kinjalpanjwani
+
+---
+
+## ⭐ If you found this project interesting, consider giving it a star!
